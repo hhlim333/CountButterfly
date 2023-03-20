@@ -1,11 +1,11 @@
 # CountButterfly
 
 This task is based on yolov5 to produce butterfly detection<br>
-See the [YOLOv5 Docs](https://docs.ultralytics.com) for the reference
+See the [YOLOv5](https://github.com/ultralytics/yolov5) for the reference
 
 Install
 
-a. Install conda and create virtual environment for this task
+a. Install [conda](https://docs.conda.io/en/latest/) and create virtual environment for this task
 ```bash
 conda create -n countbutterfly python=3.7
 conda activate countbutterfly
