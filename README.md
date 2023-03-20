@@ -25,10 +25,10 @@ pip install -r requirements.txt  # install
 a. You can use your computer<br>
 ```bash
 cd yolov5
-!python train.py --img 250 --batch 16 --epochs 150 --data data/butterfly.yaml --weights yolov5s.pt --nosave --cache
+!python train.py --img 250 --batch 14 --epochs 150 --data data/butterfly.yaml --weights yolov5s.pt --nosave --cache
 ```
 b. google-colab<br>
-https://colab.research.google.com/drive/1LSNiUjIzOLYqoQ929K0qCcglM9ulgdK4#scrollTo=eaFNnxLJbq4J
+https://colab.research.google.com/drive/1LSNiUjIzOLYqoQ929K0qCcglM9ulgdK4?usp=sharing
 # 2. Using trained model to produce butterfly detection for the youtube video.
 Using counterbutterfly.py to show the result.
 ```bash
